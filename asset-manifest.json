@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yingying-airbnb/static/css/main.073c9b0a.css",
+    "main.js": "/yingying-airbnb/static/js/main.00269fd2.js",
+    "static/js/787.e1c734ba.chunk.js": "/yingying-airbnb/static/js/787.e1c734ba.chunk.js",
+    "static/media/logo.svg": "/yingying-airbnb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/yingying-airbnb/index.html",
+    "main.073c9b0a.css.map": "/yingying-airbnb/static/css/main.073c9b0a.css.map",
+    "main.00269fd2.js.map": "/yingying-airbnb/static/js/main.00269fd2.js.map",
+    "787.e1c734ba.chunk.js.map": "/yingying-airbnb/static/js/787.e1c734ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.00269fd2.js"
+  ]
+}
