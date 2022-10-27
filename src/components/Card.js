@@ -5,9 +5,9 @@ import Star from "../images/star.png"
 export default function Card() {
     return (
         <div>
-            <img src={Swin} className="card--image" />
+            <img src={Swin} className="card--image" alt="siwn" />
             <div className="card--stats">
-                <img src={Star} className="card--star" />
+                <img src={Star} className="card--star" alt="star" />
                 <span>5.0</span>
                 <span className="gray">(6) • </span>
                 <span className="gray">USA</span>
