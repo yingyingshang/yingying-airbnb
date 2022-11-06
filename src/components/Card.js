@@ -1,6 +1,6 @@
 import React from "react";
-import Swin from "../images/swim.png"
-import Star from "../images/star.png"
+// import Swin from "../images/swim.png"
+// import Star from "../images/star.png"
 
 export default function Card(props) {
     console.log(props)
@@ -8,7 +8,7 @@ export default function Card(props) {
         <div className="Card">
             <img src={`${props.img}`} className="card--image" alt="siwn" />
             <div className="card--stats">
-                <img src={Star} className="card--star" alt="star" />
+                <img src={`${props.star}`} className="card--star" alt="star" />
                 <span>{props.rating}</span>
                 <span className="gray">({props.reviewCount}) • </span>
                 <span className="gray">{props.country}</span>

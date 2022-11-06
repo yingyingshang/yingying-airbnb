@@ -16,6 +16,7 @@ export default function App(){
       <Hero />
       <Card 
           img = {Swin}
+          star = {Star}
           rating = "5.0"
           reviewCount = {6}
           country = "USA"
