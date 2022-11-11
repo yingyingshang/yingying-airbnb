@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card"
-// import Swin from "./images/katie-zaferes.png"
 import Star from "./images/star.png"
 import data from "./data";
 
