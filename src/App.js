@@ -13,7 +13,7 @@ export default function App(){
   const cards = data.map(item => {
     return (
       <Card 
-          img = {`${item.coverImg}`}
+          img = {item.coverImg}
           star = {Star}
           rating = {item.stats.rating}
           reviewCount = {item.stats.reviewCount}
