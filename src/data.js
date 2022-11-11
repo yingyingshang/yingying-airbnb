@@ -6,7 +6,7 @@ let data = [
         price: 136,
         coverImg: "katie-zaferes.png",
         stats: {
-            rating: '5.0',
+            rating: "5.0",
             reviewCount: 6
         },
         location: "Online",
@@ -19,7 +19,7 @@ let data = [
         price: 125,
         coverImg: "wedding-photography.png",
         stats: {
-            rating: '5.0',
+            rating: "5.0",
             reviewCount: 30
         },
         location: "Online",
