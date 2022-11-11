@@ -3,9 +3,6 @@ import Hero from "./components/Hero";
 import Card from "./components/Card"
 import Star from "./images/star.png"
 import data from "./data";
-import Swin from "./images/katie-zaferes.png"
-import Wedding from "./images/wedding-photography.png"
-import Mountain from "./images/mountain-bike.png"
 
 /*
 Challenge: Build the Navbar component.
