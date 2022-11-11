@@ -1,7 +1,3 @@
-import Swin from "./images/katie-zaferes.png"
-import Wedding from "./images/wedding-photography.png"
-import Mountain from "./images/mountain-bike.png"
-
 let data = [
     {
         id: 1,
