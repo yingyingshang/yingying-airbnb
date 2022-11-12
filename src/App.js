@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card"
 import data from "./data";
+import "style.css";
 
 /*
 Challenge: Build the Navbar component.
