@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card"
+import Meme from "./components/Meme";
 import data from "./data";
 import "./style.css";
 
@@ -21,6 +22,7 @@ export default function App(){
   return (
     <div>
       <Navbar />
+      <Meme />
       <Hero />
       {cards}
     </div>
