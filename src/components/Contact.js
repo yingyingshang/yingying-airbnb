@@ -25,12 +25,13 @@ export default function Contact(){
     return(
         <main>
             <article className="card">
-                <img src={UserImg} className="card--image" />
+                <img src={UserImg} className="card--image" alt=""/>
                 <div className="card--info">
                     <img 
                         src = {starIcon}
                         className = "card--favorite"
                         onClick={toggleFavorite}
+                        alt=""
                     />
                     <h2 className="card--name">
                         {contact.firstName} {contact.lastName}
