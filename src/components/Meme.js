@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function Meme(){
-    const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"])
+    const [thingsArray, setThingsArray] = React.useState(["Apple", "Banana"])
 
     function addItem(){
         setThingsArray(prevThingsArray => {
-            return [...prevThingsArray, `Thing ${prevThingsArray.length +1}`]
+            return [...prevThingsArray, `Bullshit ${prevThingsArray.length +1}`]
         })
     }
 
