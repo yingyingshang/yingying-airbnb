@@ -14,6 +14,10 @@ export default function Contact(){
 
     let starIcon = contact.isFavorite ? {StarFilled} : {StarEmpty}
 
+    setContact(prevThingsArray => {
+        return [...prevThingsArray, `Bullshit ${prevThingsArray.length +1}`]
+    })
+
     function toggleFavorite(){
         console.log("Toggle Favorite")
     }
