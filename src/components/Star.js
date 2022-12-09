@@ -3,11 +3,13 @@ import StarFilled from "../images/star-filled.png"
 import StarEmpty from "../images/star-empty.png"
 
 export default function Star(props){
-    const starIcon = props.isFavorite ? {StarFilled} : {StarEmpty}
+    const starIcon = props.isFilled ? {StarFilled} : {StarEmpty}
 
     return (
         <img
             src = {`${starIcon}`}
+            className="card--favorite"
+            alt = ""
         />
     )
 }

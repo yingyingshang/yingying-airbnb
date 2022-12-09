@@ -1,5 +1,6 @@
 import React from "react"
 import UserImg from "../images/user.png"
+import Star from "./Star"
 import "./contact.css"
 
 export default function Contact(){
@@ -27,12 +28,13 @@ export default function Contact(){
             <article className="card">
                 <img src={UserImg} className="card--image" alt=""/>
                 <div className="card--info">
-                    <img 
+                    <Star isFilled={contact.isFavorite} onClick={toggleFavorite}/>
+                    {/* <img 
                         src = {`${starIcon}`}
                         className = "card--favorite"
                         onClick={toggleFavorite}
                         alt=""
-                    />
+                    /> */}
                     <h2 className="card--name">
                         {contact.firstName} {contact.lastName}
                     </h2>
