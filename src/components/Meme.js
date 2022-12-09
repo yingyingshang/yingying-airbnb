@@ -19,6 +19,11 @@ export default function Meme(){
             randomImage: url
         }))
 
+        setAllMemeImages(preAllImage => ({
+            ...preAllImage,
+            url: url
+        }))
+
    }
 
    return (
