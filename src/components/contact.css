@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -13,9 +13,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.card {
+/* .card {
     width: 200px;
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -23,7 +23,7 @@ main {
     box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
     -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
     -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
-}
+} */
 
 .card--image {
     width: 100%;
