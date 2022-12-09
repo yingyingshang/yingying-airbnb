@@ -2,6 +2,7 @@ import React from "react"
 import StarFilled from "../images/star-filled.png"
 import StarEmpty from "../images/star-empty.png"
 import UserImg from "../images/user.png"
+import "./contact.css"
 
 export default function Contact(){
     const [contact, setContact] = React.useState({
