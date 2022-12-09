@@ -42,7 +42,7 @@ export default function Meme(){
             </button>
 
         </div>
-        <img src={meme.randomImage} className="meme--image"/>
+        <img src={meme.randomImage} className="meme--image" alt="" />
     </main>
    )
 
