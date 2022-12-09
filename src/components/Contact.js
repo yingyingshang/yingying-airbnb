@@ -11,7 +11,7 @@ export default function Contact(){
         isFavorite: true
     })
 
-    let starIcon = contact.isFavorite ? {StarFilled} : {StarEmpty}
+    // let starIcon = contact.isFavorite ? {StarFilled} : {StarEmpty}
 
     function toggleFavorite(){
         setContact(preContact =>{
