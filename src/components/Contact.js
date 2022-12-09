@@ -30,7 +30,7 @@ export default function Contact(){
                 <img src={UserImg} className="card--image" alt=""/>
                 <div className="card--info">
                     <img 
-                        src = {starIcon}
+                        src = {StarFilled}
                         className = "card--favorite"
                         onClick={toggleFavorite}
                         alt=""
