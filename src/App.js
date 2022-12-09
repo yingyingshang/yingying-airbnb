@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Card from "./components/Card"
 import Meme from "./components/Meme";
 import Contact from "./components/Contact";
+import Counter from "./components/Counter";
 import data from "./data";
 import "./style.css";
 
@@ -23,6 +24,7 @@ export default function App(){
   return (
     <div>
       <Navbar />
+      <Counter />
       <Contact />
       <Meme />
       <Hero />
