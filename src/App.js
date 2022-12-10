@@ -5,6 +5,7 @@ import Meme from "./components/Meme";
 import Contact from "./components/Contact";
 import Counter from "./components/Counter";
 import data from "./data";
+import boxes from "./components/boxesData"
 import "./style.css";
 
 /*
@@ -13,6 +14,18 @@ Check the Figma file for the design specifics.
 */
 
 export default function App(){
+  const [user, setUser] = React.useState("Bob")
+
+  setUser = user
+
+  const [squares, setSquares] = React.useState(boxes)
+
+  setSquares = squares
+
+  const squareElements = squares.map(square => (
+    <div className="box" key={square.id}/>
+  ))
+
   const cards = data.map(item => {
     return (
       <Card 
@@ -21,14 +34,19 @@ export default function App(){
       />
     )
   })
+
   return (
     <div>
-      <Navbar />
-      <Counter />
+      <Navbar user={user} />
+      <Counter  user={user} />
       <Contact />
       <Meme />
       <Hero />
       {cards}
+      <main>
+        <h1>Boxes will go here </h1>
+        {squareElements}
+      </main>
     </div>
   );
 }

@@ -28,7 +28,7 @@ export default function Contact(){
             <article className="card">
                 <img src={UserImg} className="card--image" alt=""/>
                 <div className="card--info">
-                    <Star isFilled={contact.isFavorite} onClick={toggleFavorite}/>
+                    <Star isFilled={contact.isFavorite} handleCLick={toggleFavorite}/>
                     {/* <img 
                         src = {`${starIcon}`}
                         className = "card--favorite"
