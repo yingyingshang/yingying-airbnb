@@ -3,14 +3,14 @@ import boxes from "./boxesData"
 
 export default function Box(props){
 
-    const [squares, setSquares] = React.useState(boxes)
+    const [squares] = React.useState(boxes)
 
     const styles = {
-        backgroundColor: props.darkMode ? "#222222" : "#cccccc"
+        backgroundColor: squares.on ? "#222222" : "#cccccc"
     }
 
     const squareElements = squares.map(square => (
-      <div style={styles} className="box" key={square.id}/>
+      <div style={styles} className="box" key={square.id} on={square.on}/>
     ))
 
     return (

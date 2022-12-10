@@ -32,7 +32,7 @@ export default function App(){
       <Meme />
       <Hero />
       {cards}
-      <Box darkMode={false} />
+      <Box/>
     </div>
   );
 }
