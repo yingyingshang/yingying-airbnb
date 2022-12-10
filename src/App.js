@@ -17,11 +17,15 @@ Check the Figma file for the design specifics.
 export default function App(){
   const [user, setUser] = React.useState("Bob")
 
-  setUser = user
+  setUser(preUser=>({
+    ...preUser
+  }))
 
   const [squares, setSquares] = React.useState(boxes)
 
-  setSquares = squares
+  setSquares(preSquare=>({
+    ...preSquare
+  }))
 
   const squareElements = squares.map(square => (
     <div className="box" key={square.id}/>
