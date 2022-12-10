@@ -26,8 +26,8 @@ export default function App(){
 
   return (
     <div>
-      <Navbar user={user} />
-      <Counter  user={user} />
+      <Navbar />
+      <Counter />
       <Contact />
       <Meme />
       <Hero />
