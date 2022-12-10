@@ -6,7 +6,7 @@ export default function Box(props){
     const [squares] = React.useState(boxes)
 
     const styles = {
-        backgroundColor: squares.on ? "#222222" : "#cccccc"
+        backgroundColor: squares.on ? "#222222" : "#222222"
     }
 
     const squareElements = squares.map(square => (
