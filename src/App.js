@@ -32,7 +32,7 @@ export default function App(){
       <Meme />
       <Hero />
       {cards}
-      <Box/>
+      <Box />
     </div>
   );
 }
