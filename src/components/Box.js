@@ -16,7 +16,7 @@ export default function Box(){
     }
 
     const squareElements = squares.map(square => (
-      <div style={styles} className="box" key={square.id} on={square.on} onClick={toggle}/>
+      <div style={styles} className="box" onClick={toggle}/>
     ))
 
     return (
