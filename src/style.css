@@ -65,7 +65,8 @@ section {
 }
 
 .card--image {
-    /* width: 100%; */
+    width: 100%;
+    padding: 10%;
     border-radius: 9px;
     margin-bottom: 9px;
 }
