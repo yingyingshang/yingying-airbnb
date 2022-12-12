@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yingying-airbnb/static/css/main.6e489dae.css",
-    "main.js": "/yingying-airbnb/static/js/main.85bc2a25.js",
+    "main.js": "/yingying-airbnb/static/js/main.97957065.js",
     "static/js/787.e1c734ba.chunk.js": "/yingying-airbnb/static/js/787.e1c734ba.chunk.js",
     "static/media/star-filled.png": "/yingying-airbnb/static/media/star-filled.efc5ebcdb3a43a675e6c.png",
     "static/media/user.png": "/yingying-airbnb/static/media/user.08f09e2029b0df87e6ca.png",
@@ -12,11 +12,11 @@
     "static/media/mountain-bike.png": "/yingying-airbnb/static/media/mountain-bike.6ba709420db48ce26839.png",
     "index.html": "/yingying-airbnb/index.html",
     "main.6e489dae.css.map": "/yingying-airbnb/static/css/main.6e489dae.css.map",
-    "main.85bc2a25.js.map": "/yingying-airbnb/static/js/main.85bc2a25.js.map",
+    "main.97957065.js.map": "/yingying-airbnb/static/js/main.97957065.js.map",
     "787.e1c734ba.chunk.js.map": "/yingying-airbnb/static/js/787.e1c734ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e489dae.css",
-    "static/js/main.85bc2a25.js"
+    "static/js/main.97957065.js"
   ]
 }
