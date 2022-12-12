@@ -122,5 +122,5 @@ textarea {
     margin-bottom: 15px;
     border: 1px solid #444;
     border-radius: 5px;
-    display: block;
+    display: flex;
 }
