@@ -1,28 +1,28 @@
 let jokesData = [
     {
         id: 1,
-        setup: "I got my daughter a fridge for her birthday.",
-        punchline: "I can't wait to see her face light up when she opens it."
+        setup: "1. Click on Shown Punchline Button",
+        punchline: "You will see this sentence. and click it again"
     },
     {
         id: 2,
-        setup: "How did the hacker escape the police?",
-        punchline: "He just ransomware!"
+        setup: "2. Click on the Blank box",
+        punchline: "It will changed to blue!"
     },
     {
         id: 3,
-        setup: "Why don't pirates travel on mountain roads?",
-        punchline: "Scurvy."
+        setup: "3. Click on the plus icon then minus icon",
+        punchline: "The number will change."
     },
     {
         id: 4,
-        setup: "Why do bees stay in the hive in the winter?",
-        punchline: "Swarm."
+        setup: "4. Click on the star icon under Lisa",
+        punchline: "It will change to empty star."
     },
     {
         id: 5,
-        setup: "What's the best thing about Switzerland?",
-        punchline: "I don't know, but the flag is a big plus!"
+        setup: "5. Click on Get a new meme image",
+        punchline: "A new image will show!"
     }
 ]
 

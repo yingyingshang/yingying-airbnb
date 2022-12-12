@@ -41,11 +41,11 @@ export default function App(){
   return (
     <div>
       <Navbar />
-      {jokeElements}
       <Box />
       <Counter />
       <Contact />
       <Meme />
+      {jokeElements}
       <Hero />
       {cards}
     </div>
