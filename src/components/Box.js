@@ -5,7 +5,7 @@ export default function Box(){
 
     const [squares, setSquares] = React.useState(boxes)
 
-    const [on, setOn] = React.useState(squares.on)
+    // const [on, setOn] = React.useState(squares.on)
 
     const styles = {
         backgroundColor: on ? "#222222" : "#00D8FF"
