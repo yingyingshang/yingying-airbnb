@@ -2,16 +2,18 @@ import React from "react";
 
 export default function Form (){
     const [formData, setFormData] = React.useState(
-        {firstName: "", lastName: "", email: "", comments: ""}
+        {firstName: "", lastName: "", email: "", comments: "", isFriendly: true}
     )
 
     console.log(formData)
 
     function handleChange(event){
+        const {name, value, type, checked} = event.target
         setFormData(prevFormData => {
             return{
                 ...prevFormData,
-                [event.target.name]: event.target.value
+                // [event.target.name]: event.target.value
+                [name]: type === "checkbox" ? checked : value
             }
         })
     }
@@ -46,6 +48,14 @@ export default function Form (){
                 name="comments"
                 value={formData.comments}
             />
+            <input
+                type="checkbox"
+                id="isFriendly"
+                checked={formData.isFriendly}
+                onChange={handleChange}
+                name="isFriendly"
+            />
+            <label htmlFor="isFriendly">Are you friendly?</label>
         </form>
     )
 }
