@@ -2,11 +2,16 @@ import React from "react";
 
 export default function Form (){
     const [firstName, setFirstName] = React.useState("")
+    const [lastName, setLastName] = React.useState("")
 
-    console.log(firstName)
+    console.log(firstName, lastName)
 
-    function handleChange(event){
+    function handleFirstNameChange(event){
         setFirstName(event.target.value)
+    }
+
+    function handleLastNameChange(event){
+        setLastName(event.target.value)
     }
 
     return (
@@ -14,7 +19,13 @@ export default function Form (){
             <input
                 type = "text"
                 placeholder="First Name"
-                onChange={handleChange}
+                onChange={handleFirstNameChange}
+
+            />
+            <input
+                type = "text"
+                placeholder="Last Name"
+                onChange={handleLastNameChange}
 
             />
         </form>
