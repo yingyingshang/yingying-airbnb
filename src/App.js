@@ -27,12 +27,12 @@ export default function App(){
   return (
     <div>
       <Navbar />
+      <Box />
       <Counter />
       <Contact />
       <Meme />
       <Hero />
       {cards}
-      <Box />
     </div>
   );
 }
