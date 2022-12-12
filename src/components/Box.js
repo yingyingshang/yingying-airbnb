@@ -7,10 +7,6 @@ export default function Box(){
 
     // const [on, setOn] = React.useState(squares.on)
 
-    const styles = {
-        backgroundColor: squares.on ? "#222222" : "#00D8FF"
-    }
-
     function toggle(id){
         setSquares(prevSquares => {
             const newSquares = []
@@ -29,7 +25,11 @@ export default function Box(){
             return newSquares
         })
         // setOn(preOn => !preOn)
-        // console.log(id)
+        console.log(id)
+    }
+
+    const styles = {
+        backgroundColor: squares.on ? "#222222" : "#00D8FF"
     }
  
     const squareElements = squares.map(square => (
