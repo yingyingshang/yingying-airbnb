@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Counter from "./components/Counter";
 import data from "./data";
 import Box from "./components/Box"
+import Form from "./components/Form";
 import "./style.css";
 
 import React from "react";
@@ -41,12 +42,13 @@ export default function App(){
   return (
     <div>
       <Navbar />
-      <Box />
-      <Counter />
-      <Contact />
-      <Meme />
-      {jokeElements}
       <Hero />
+      <Form />
+      <Meme />
+      <Contact />
+      <Counter />
+      <Box />
+      {jokeElements}
       {cards}
     </div>
   );
