@@ -8,12 +8,26 @@ import data from "./data";
 import Box from "./components/Box"
 import "./style.css";
 
+import React from "react";
+import Joke from "./components/Joke";
+import jokesData from "./components/jokesData";
+
 /*
 Challenge: Build the Navbar component.
 Check the Figma file for the design specifics.
 */
 
 export default function App(){
+
+  const jokeElements = jokesData.map(joke =>{
+    return (
+      <Joke 
+          key = {joke.id}
+          setup = {joke.setup}
+          punchline = {joke.punchline}
+      />
+    )
+  })
 
   const cards = data.map(item => {
     return (
@@ -27,6 +41,7 @@ export default function App(){
   return (
     <div>
       <Navbar />
+      {jokeElements}
       <Box />
       <Counter />
       <Contact />
