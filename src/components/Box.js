@@ -8,7 +8,7 @@ export default function Box(){
     // const [on, setOn] = React.useState(squares.on)
 
     const styles = {
-        backgroundColor: on ? "#222222" : "#00D8FF"
+        backgroundColor: squares.on ? "#222222" : "#00D8FF"
     }
 
     function toggle(id){
