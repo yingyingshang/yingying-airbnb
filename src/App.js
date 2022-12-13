@@ -9,6 +9,7 @@ import Box from "./components/Box"
 import Form from "./components/Form";
 import SignUp from "./components/SignUp"
 import GetAPI from "./components/GetAPI"
+import WindowTracker from "./components/WindowTracker";
 import "./style.css";
 
 import React from "react";
@@ -21,6 +22,12 @@ Check the Figma file for the design specifics.
 */
 
 export default function App(){
+
+  const [show, setShow] = React.useState(true)
+
+  function toggle(){
+    setShow(preShow => !preShow)
+  }
 
   const jokeElements = jokesData.map(joke =>{
     return (
@@ -54,8 +61,14 @@ export default function App(){
       {jokeElements}
       {cards}
       <GetAPI />
+      <div className="container">
+        <button onClick={toggle}>
+          Toggle WindowTracker
+        </button>
+        {show && <WindowTracker />}
+        </div>
     </div>
-  );
+  )
 }
 
 
