@@ -8,6 +8,7 @@ import data from "./data";
 import Box from "./components/Box"
 import Form from "./components/Form";
 import SignUp from "./components/SignUp"
+import GetAPI from "./components/GetAPI"
 import "./style.css";
 
 import React from "react";
@@ -52,6 +53,7 @@ export default function App(){
       <Box />
       {jokeElements}
       {cards}
+      <GetAPI />
     </div>
   );
 }
