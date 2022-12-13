@@ -5,9 +5,17 @@ export default function GetAPI(){
 
     console.log("Component rendered")
 
-    fetch("https://swapi.dev/api/people/1")
+    // side effects
+
+    React.useEffect(function(){
+        fetch("https://swapi.dev/api/people/1")
         .then(res => res.json())
         .then(data => setStarWarsData(data))
+    })
+
+    // fetch("https://swapi.dev/api/people/1")
+    //     .then(res => res.json())
+    //     .then(data => setStarWarsData(data))
 
     return (
         <div>
