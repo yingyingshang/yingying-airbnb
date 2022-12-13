@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GetAPI(){
     const [starWarsData, setStarWarsData] = React.useState({})
-    const [count, setCount] = React.useState(0)
+    const [count, setCount] = React.useState(1)
 
     console.log("Component rendered")
 
