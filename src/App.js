@@ -7,6 +7,7 @@ import Counter from "./components/Counter";
 import data from "./data";
 import Box from "./components/Box"
 import Form from "./components/Form";
+import SignUp from "./components/SignUp"
 import "./style.css";
 
 import React from "react";
@@ -42,6 +43,7 @@ export default function App(){
   return (
     <div>
       <Navbar />
+      <SignUp />
       <Hero />
       <Form />
       <Meme />
